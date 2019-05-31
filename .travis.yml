@@ -4,7 +4,7 @@ node_js:
 services:
   - postgresql # starts up postgres
 addons:
-  postgresql: '9.6' # highest available postgres version on Travis
+  postgresql: "9.6" # highest available postgres version on Travis
 dist: trusty # uses trusty environment
 sudo: false # when on trusty, uses Docker containers for speed
 notifications:
@@ -24,4 +24,4 @@ before_script:
 #   provider: heroku
 #   app: YOUR-HEROKU-APP-NAME-HERE # see README
 #   api_key:
-#     secure: YOUR-***ENCRYPTED***-API-KEY-HERE
+#     secure: p1WYBJxP/kVtHy1CpfLQvIJt3NmDdC+xSZ6rmq7VjvNIba2nK8seVZ/3NHwMuWfr9dBa3+g3sHsIw7/+Urlx1KZZ58Vhn3vI2DEVJVda1kPU/GWTiTL+qah5WihX0H0P+4DNjWLtbpbtGRVeC4fQFfDxHEqvjrJWtkTLYx3ruTy+vjfCwuzcW1OXwg73ZGyTRoJaPQKHJQqXQHw/rbTgOAnFQLYRTfRAsSoAWE64w1CLaGTbLfmvZ+fPdnqIU2kpqFkbQeH5cGRSvMvrEG7o0w1KBdQSyXbZDcvSnqXpTfdVL3w+3CwnKp7vqGhRqqpRKxyOSyyScNiWwqVBaUk/cPHEFca82vKwQ6PiScfgdHa4vqvk+QkhQTNP4QtTZpv3QuwmJfUxqoABiSgcwsNKT+3X61TudvKR2o8unwuht9gv2wyZg/w4eqJcb9AHxcTHaI8kZKulxeCMwb29P5eaO6P2Ybd0p1vR4gJxcVfQgAhKPKGG9fUO1abPbm+r2Yz5YdZv9nUefwWFsIgI4RdOwb2FCcs+E9DxFYSts6XwucDbJeKc6b7lg5kvq7ph3MYaqRdNgUFQ6QUI+mgb4LDKJMndTMTe1XZIZJjz9EH2k7QXNzu4hNlsQwFWogoC9aCDbsXtXYOtrHWA+AHqyJnBhZ4Nb/oeYvMC8QHoLuqSXDg=
